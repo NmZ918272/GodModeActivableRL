@@ -1,0 +1,104 @@
+# Git ignore file for BakkesMod Creative Mode Plugin
+
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.DotSettings
+*.VC.db
+*.VC.VC.opendb
+
+# Compiled objects
+*.o
+*.obj
+*.asm
+
+# Libraries
+*.lib
+*.a
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+external/glm/
+external/imgui/
+external/json/
+
+# Output
+output/
+frames/
+exports/
+
+# Projects
+*.creative
+*.preset
+*.tmp
+*.bak
+
+# Logs
+*.log
+console_log.txt
+error_log.txt
+
+# Temporary files
+temp/
+*.temp
+.temp/
+
+# Cache
+*.cache
+.cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Documentation
+site/
+docs/_build/
+*.doxygen
+
+# Debug symbols
+*.pdb
+*.sym
+
+# Node (if using node tools)
+node_modules/
+npm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
